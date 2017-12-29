@@ -1,0 +1,23 @@
+{
+  "name": "@jayrbolton/insertion-sort",
+  "version": "0.0.1",
+  "description": "Implementation of insertion sort",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0",
+    "benchmark": "^2.1.4",
+    "common-readme": "^1.1.0"
+  },
+  "scripts": {
+    "test": "dependency-check package.json && standard && node test/"
+  },
+  "keywords": [],
+  "author": "jayrbolton@protonmail.com",
+  "license": "MIT"
+}
